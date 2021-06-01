@@ -1,16 +1,15 @@
 <template lang="pug">
 #app
-    img(src="./assets/logo.png", alt="Vue logo")
-    HelloWorld(msg="Welcome to Your Vue.js App")
+    TrainerRememberNumber
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TrainerRememberNumber from '@/components/TrainerRememberNumber'
 
 export default {
     name: 'App',
     components: {
-        HelloWorld,
+        TrainerRememberNumber,
     },
 }
 </script>
@@ -19,7 +18,6 @@ export default {
 #app
     margin-top 60px
     font-family Avenir, Helvetica, Arial, sans-serif
-    text-align center
     color #2c3e50
     -webkit-font-smoothing antialiased
     -moz-osx-font-smoothing grayscale
